@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BidBoats Premium Auction Site</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+            #slider {
+                overflow: hidden;
+                margin-right: 60%;
+                margin-top: -16%;
+                margin-bottom: 10%;
+                margin-left: 0%;
+            }
+            #slider figure {
+                position: relative;
+                width: 800%;
+                margin: 0;
+                left: 0;
+                bottom: 0%;
+                animation: 20s slider infinite;
+            }
+
+            #slider figure img{
+                float: left;
+                width: 12.5%;
+            }
+            @keyframes slider{
+                0% {
+                    left: 0;
+                }
+                12.5%{
+                    left: 0;
+                }
+                20%{
+                    left: -100%;
+                }
+                32.5%{
+                    left: -100%;
+                }
+                40%{
+                    left: -200%;
+                }
+                52.5%{
+                    left: -200%;
+                }
+                60%{
+                    left: -300%;
+                }
+                72.5%{
+                    left: -300%
+                }
+                80%{
+                    left: -400%;
+                }
+                92.5%{
+                    left: -400%;
+                }
+                100%{
+                    left: -500%;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hero">
+            
+            <nav class="navbar">
+                 <div class="logo"><strong>Bid</strong>
+                    <div class="color"><strong>Boats</strong></div>
+                </div>
+                <ul class="nav-links">
+
+                    <!-- USING CHECKBOX HACK -->
+                    
+                    <input type="checkbox" id="checkbox_toggle" />
+                    
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    
+                    <!-- NAVIGATION MENUS -->
+                    
+                    <div class="menu">
+
+                    <li class="services">
+                        <a href="/">Yatchs</a>
+                    <ul class="dropdown">
+                        <li><a href="/">Auctions</a></li>
+                        <li><a href="/">Sell</a></li>
+                    </ul>
+                    </li>
+            
+
+                    <li class="services">
+                        <a href="/">Classics</a>
+
+                     <ul class="dropdown">
+                        <li><a href="/">Auctions</a></li>
+                        <li><a href="/">Sell</a></li>
+                     </ul>
+                    </li>
+                    
+                    
+                    <li class="services">
+                     <a href="/">Boats</a>
+                    
+                      <ul class="dropdown">
+                        <li><a href="/">Auctions</a></li>
+                        <li><a href="/">Sell</a></li>
+                      </ul>    
+                    </li>
+
+                    
+                    <li class="services">
+                        <a href="/">Premium</a>
+
+                    <ul class="dropdown">
+                        <li><a href="/">Super Yatchs</a></li>
+                        <li><a href="/">Freight</a></li>
+                        <li><a href="/">Cruise</a></li>
+                        <li><a href="/">Sell</a></li>
+                    </ul>
+                    </li>
+                    
+                    
+                    <li><a href="/">Contact</a></li>
+                    
+
+                    
+                    </div>
+                    
+                </ul>
+                    
+            </nav>
+            <div class="text-container">
+                <h1>Buying. Made. Simple.</h1>
+                <br>
+                <p>BidBoats is a online auction platform for all kinds of boats. Through a streamline and 
+                    modern process. Anyone can buy and sell boats for a small fee.</p>
+                    <br><a href="">Click here to learn how</a>
+            </div>
+            
+            <div id="slider">
+                <figure>
+                    <p>Cupertino, CA  <em>BidBoats Premium</em><br>Reserve: $150,000,000</p>
+                    <img src="images/img1.jpeg">
+                </figure>
+                <figure>
+                    <p>Jersey Shore, NJ<br>Reserve: $150,000</p>
+                    <img src="images/img2.webp">
+                </figure>
+                <figure>
+                    <p>Lake Erie, NY<br>Reserve: $175,000</p>
+                    <img src="images/img3.jpeg">
+                </figure>
+                <figure>
+                    <p>Hong Kong, China  <em>BidBoats Premium</em><br>Reserve: $7,500,000</p>
+                    <img src="images/img4.webp">
+                </figure>
+                <figure>
+                    <p>Ft. Lauderdale, FL  <em>BidBoats Premium</em><br>Hidden Reserve</p>
+                    <img src="images/img5.jpeg">
+                </figure>
+                <figure>
+                    <p>Miami Beach, FL<br>Reserve: $3,200,000</p>
+                    <img src="images/img6.jpeg">
+                </figure>
+                <figure>
+                    <p>Monaco, France  <em>BidBoats Premium</em><br>Reserve: $75,000,000</p>
+                    <img src="images/img7.jpeg">
+                </figure>
+                <figure>
+                    <p>Cupertino, CA  <em>BidBoats Premium</em><br>Reserve: $150,000,000</p>
+                    <img src="images/img1.jpeg">
+                </figure>
+            </div>
+        </div>
+
+        
+
+    </body>
+</html>

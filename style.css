@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-container{
+    max-width: 600px;
+    margin-left: 50%;
+    margin-top: 7%;
+}
+
+.text-container h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.text-container p{
+    font-size: 20px;
+}
+
+.text-container a{
+    text-decoration: #fff;
+    background: #4c9e9e;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+    
+    
+.logo {
+    font-size: 32px;
+}
+.color{
+    font-size: 33px;
+    color: #1d2026;
+}
+    
+    
+    
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+    
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+    
+.menu li {
+    padding: 5px 14px;
+}
+    
+    
+    
+.services {
+    position: relative; 
+}
+    
+.dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+    
+.dropdown li + li {
+    margin-top: 10px;
+}
+    
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+    
+.dropdown li:hover {
+    background-color: #4c9e9e;
+}
+    
+.services:hover .dropdown {
+    display: block;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+.slider figure img{
+    float: left;
+    width: 12.5%;
+}
+
+
+
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+    12.5%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    32.5%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    52.5%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    72.5%{
+        left: -300%
+    }
+    80%{
+        left: -400%;
+    }
+    92.5%{
+        left: -400%;
+    }
+    100%{
+        left: -500%;
+    }
+
+}
+
+.slider.text {
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
